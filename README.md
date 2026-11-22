@@ -23,7 +23,6 @@ This repository contains the core code that determines which posts a viewer sees
 - [What's not in this repo?](#whats-not-in-this-repo)
 - [Under the Hood Label Transparency Tool](#under-the-hood-label-transparency-tool)
 - [Key Design Decisions](#key-design-decisions)
-- [License](#license)
 
 ---
 
@@ -500,11 +499,3 @@ The `candidate-pipeline` crate provides a flexible framework for building recomm
 - Separation of pipeline execution and monitoring from business logic
 - Parallel execution of independent stages and graceful error handling
 - Easy addition of new sources, hydrations, filters, and scorers
-
----
-
-
-
-## License
-
-Licensed under the Apache License 2.0. See [LICENSE](LICENSE).
